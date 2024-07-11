@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url(Rectangle\ 2.png);
+        }
+        .main1{
+            width: 100%;
+         
+        }
+        .sub3{
+            justify-content: end;
+            display: block;
+            display: flex;
+            position: relative;
+            bottom: 600px;
+        }
+
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } .sub3 { opacity: 0; animation: fadeIn 3s forwards; }
+        .sub2{
+
+font-family: 'Pretendard Variable';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 115px;
+background: radial-gradient(1044.27% 1044.27% at 50% 50%, #CC8BF2 0%, rgba(204, 139, 242, 0) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: block;
+margin: 50px;
+
+        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } .sub2 { opacity: 0; animation: fadeIn 3s forwards; }
+
+        .sub1{
+            display: flex;
+          margin: auto;
+          text-align: center;
+          justify-content: space-around;
+           width: 50%;
+          padding-top: 20px;
+            
+        }
+
+        .h1{
+            
+width: 1000px;
+font-family: 'Pretendard Variable';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 38px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+margin: 30px;
+
+
+        }
+
+        button{
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+    box-shadow: 3px 3px 3px black;
+    transition: 3s;
+    border-radius: 16px;
+    width: 150px;
+    text-align: center;
+
+  
+}
+.btn-dark:hover{
+    font-size: 40px;
+
+    cursor: pointer;
+    transition: 1s;
+    width: 200px;
+    
+}
+.btn-success:hover{
+    font-size: 40px;
+    cursor: pointer;
+    transition: 1s;
+    width: 200px;
+}
+.btn-danger:hover{
+    font-size: 40px;
+    cursor: pointer;
+    transition: 1s;
+    width: 200px;}
+    .btn-primary:hover{
+    font-size: 36px;
+    cursor: pointer;
+    transition: 1s;
+    width: 200px;
+}
+
+
+    .sub4{
+      
+        position: relative;
+        right: 1200px;
+        animation-name: a;
+        animation-fill-mode: forwards;
+        animation-duration: 2s;
+        transition: 1s;
+
+
+    }
+
+    @keyframes a{
+        0%{ right: 1000px;
+
+        }
+
+        100%{
+            right:0px;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+    button{
+
+     position: relative;
+     right: 40px;
+     width: 90px;
+     font-size: 15px;
+     height: 60px;
+   
+    }
+
+    .sub2{
+        width: 500px;
+        font-size: 30px;
+    }
+
+    .h1{
+        width: 450px;
+        font-size: 20px;
+    }
+
+    .sub3{
+        position: relative;
+        top: 50px;
+    }
+
+}
+ 
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <div class="sub1">
+            <a href="Home PAGE.html">
+
+                <button type="button" class="btn btn-dark " style="color: white; border-radius: 25px;">HOME</button>
+            </a>
+            <a href="about.html">
+
+                <button type="button" class="btn btn-success" style="border-radius:25px  ">ABOUT</button>
+            </a>
+            <a href="MY projects.html" style="text-decoration: none;">
+
+                <button type="button" class="btn btn-danger" style="border-radius: 25px; font-size: 15px; ">MY PROJECTS</button>
+            </a>
+            <a href="contacts.html">
+                <button type="button" class="btn btn-primary" style="border-radius: 25px;">Contacts</button>
+            </a>
+        </div>
+        <div class="sub2">
+            <h1 style="font-size: 80px;">ABOUT ME</h1> 
+            <HR style="width: 400px; color: white; height: 3px;"></HR>
+        </div>
+        <div class="sub4">
+            <p class="h1">
+                As a website developer, UI Designer
+                I have had the opportunity to learn from some of the most 
+                talented individuals in these respective fields. <br>
+                I could not be more excited by the opportunity to work in such exciting 
+                and dynamic industries, and I am constantly striving to improve my skills 
+                and make a positive impact in my field.<br>
+                <br>
+                Above all, I am grateful for the 
+                chance to pursue my passions and to collaborate with others to create innovative and engaging work.</p>
+                
+        </div>
+        <div class="sub3">
+            <img src="Device cloud - Copy@1-1440x820 1.png" class="img-fluid" alt="...">
+            </div>
+
+    </div>
+    
+</body>
+</html>

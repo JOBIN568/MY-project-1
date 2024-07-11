@@ -1,0 +1,71 @@
+.main1{
+   
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 1200px;
+   
+    
+}
+
+body{
+    background-image: url(Rectangle\ 2.png);
+ 
+}
+
+.sub1{
+    margin: auto;
+}
+
+
+.img1{
+    width:100%;
+    position: relative;
+    bottom: 200px;
+    
+}
+
+.img-fluid{
+    margin: auto;
+    width: 100%;
+    position: relative;
+    bottom: 350px;
+    /* left: 1200px; */
+    right: 1200px;
+    animation-name:a;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+.img-fluid:hover{
+width: 100px;
+transition: 1s;
+}
+
+@keyframes a{
+    0%{
+        left: 1200px;
+    }
+
+    100%{
+        right: 0px;
+    } 
+
+}
+
+ @media only screen and (max-width: 600px) {
+    
+    
+   
+   .img-fluid {
+       position: relative;
+       bottom: 200px;
+       width: 100%;
+    }
+  } 
+
+
+  
+
+

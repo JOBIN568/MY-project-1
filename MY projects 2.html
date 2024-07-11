@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+           body{
+            background-image: url(Rectangle\ 2.png);
+        }
+        .main1{
+            width: 100%;
+            
+           
+        }
+        .sub1{
+            display: flex;
+           margin: auto;
+          justify-content: space-around;
+           width: 50%;
+          padding-top: 20px;
+        }
+        button{
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+    animation-name: c;
+    animation-duration: 2s;
+    transition: 3s;
+    animation-fill-mode: forwards;
+    border-radius: 16px;
+    width: 150px;
+  
+}
+.btn-dark:hover{
+    font-size: 40px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+.btn-success:hover{
+    font-size: 40px;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn-danger:hover{
+    font-size: 33px;
+    cursor: pointer;
+ 
+    transition: 1s;}
+    .btn-primary:hover{
+    font-size: 36px;
+    cursor: pointer;
+    transition: 1s;
+    width: 200px;
+}
+    .sub2{
+    
+    margin-top: 100px;
+}
+.fade-in-element{
+    font-size: 96px;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    color: rgba(219, 22, 186, 0.89);
+    font-family: system-ui, sans-serif;
+    box-shadow: 0px 0px 0px black;
+    position: relative;
+   
+    animation-name: a;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: 1s;
+    animation-delay: 1s;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+background: linear-gradient(186.21deg, #A178B9 -23.45%, #CC8BF2 169.11%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } .fade-in-element { opacity: 0; animation:  fadeIn 3s forwards  }
+
+.row{
+   
+text-align: center;
+margin: 30px;
+
+
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } .row { opacity: 0; animation: fadeIn 3s forwards; }
+.col:hover{
+    width: 500px;
+    transition: 1s;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 500px) {
+    button{
+
+        position: relative;
+     right: 80px;
+     width: 90px;
+     font-size: 15px;
+     height: 60px;
+    }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <div class="sub1">
+           <a href="Home PAGE.html">
+
+               <button type="button" class="btn btn-dark " style="color: white; border-radius: 25px; width: 150px;">HOME</button>
+            </a>
+           <a href="about.html">
+
+               <button type="button" class="btn btn-success" style="border-radius:25px  ">ABOUT</button>
+            </a>
+            <a href="MY projects.html">
+
+                <button type="button" class="btn btn-danger" style="border-radius: 25px">MY PROJECTS</button>
+            </a>
+            <a href="contacts.html">
+                <button type="button" class="btn btn-primary" style="border-radius: 25px;">Contacts</button>
+            </a>
+        </div>
+        <div class="sub2">
+            <h1 class="fade-in-element" style="font-size: 60px;">MY PROJECTS</h1>
+            <HR style="color: white; height: 7px; width: 500px; text-align: center; margin: auto;"></HR> 
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card ">
+                <img src="porjects 4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">LAPTOP SET</h5>
+                  <p class="card-text">Store Development, Digital Marketing, 
+                    Branding, External Integration.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    
+</body>
+</html>

@@ -1,0 +1,196 @@
+.main1{
+    width: 100%;
+    height:1170px ;
+    /* background-color: rgba(57, 38, 87, 1) ; */
+   
+    
+}
+body{
+    background-image: url(Rectangle\ 2.png);
+    height:1200px ;
+    width: 100%;
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } body { opacity: 0; animation: fadeIn 3s forwards; }
+
+.sub1{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 50%;
+    padding-top: 20px;
+    
+}
+
+button{
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+    bottom: 60px;
+    animation-name: c;
+    animation-duration: 2s;
+    transition: 3s;
+    animation-fill-mode: forwards;
+    border-radius: 16px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    display: block;
+  
+}
+.btn-dark:hover{
+    font-size: 40px;
+    color: green;
+    cursor: pointer;
+    transition: 1s;
+    background-color: red;
+    width: 200px;
+    
+}
+.btn-success:hover{
+    font-size: 40px;
+    color: green;
+    cursor: pointer;
+    transition: 1s;
+    width: 200px;
+}
+.btn-danger:hover{
+    font-size: 40px;
+    cursor: pointer;
+    color: green;
+    transition: 1s;
+    width: 200px;
+}
+.btn-primary:hover{
+    font-size: 36px;
+    cursor: pointer;
+    color: green;
+    transition: 1s;
+    width: 200px;
+}
+.sub2{
+    
+    margin-top: 200px;
+}
+
+.h2{
+    font-size: 96px;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    color: rgba(219, 22, 186, 0.89);
+    font-family: system-ui, sans-serif;
+    box-shadow: 0px 0px 0px black;
+    position: relative;
+    left: 1700px;
+    animation-name: a;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: 1s;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+background: linear-gradient(186.21deg, #A178B9 -23.45%, #CC8BF2 169.11%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+/* text-fill-color: transparent; */
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+p{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    right: 1800px;
+    animation-name: b;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: 1s;
+
+
+font-family: 'Pretendard Variable';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    
+}
+
+img{
+width: 1200px;
+text-align: center;
+margin: auto;
+display: block;
+margin-bottom: 1000px;
+position: relative;
+bottom: 50px;
+}
+
+
+
+@keyframes a{
+    0%{
+        font-size: 300px;
+    }
+
+    100%{
+        left: 0px;
+    }
+
+}
+
+@keyframes b{
+    0%{
+        font-size: 62px;
+
+    }
+
+    100%{
+        right: 10px;
+    }
+}
+
+@keyframes c{
+    0%{
+        bottom: 100px;
+    }
+    100%{
+        bottom: 0px;
+    }
+}
+
+
+
+
+.sub3{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: red;
+    position: relative;
+    bottom: 1100px;
+   
+}
+@media only screen and (max-width: 500px) {
+    button{
+
+     position: relative;
+     right: 40px;
+     width: 90px;
+     font-size: 15px;
+     height: 60px;
+   
+    }
+}
